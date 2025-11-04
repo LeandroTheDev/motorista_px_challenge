@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/*
+FORMULARIOS
+*/
+form#novo-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form#novo-item input[type=text] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+form#novo-item button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form#novo-item button:hover {
+    background-color: #218838;
+}
+
+form.update-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+form.delete-form {
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+td form {
+    display: inline-block;
+}
+
+td.delete-cell {
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/*
+BOTÕES
+*/
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.save-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+button.save-btn:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#novo-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+button#novo-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*
+INPUTS
+*/
+input[type=number] {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
