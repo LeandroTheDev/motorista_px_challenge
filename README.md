@@ -4,6 +4,7 @@
 
 ### Iniciando
 - Instale php e composer no seu OS
+
 ``Extensões Necessárias do PHP``
 ```
 
@@ -18,3 +19,6 @@ extension=zip
 - Instale dependenciais do composer: ``composer install``
 - Gere uma chave: ``php artisan key:generate``
 - Inicie o servidor: ``php artisan serve``
+
+## Demonstracao
+<img width="243" height="169" alt="image" src="https://github.com/user-attachments/assets/90fe2bdd-9995-4143-9a5f-40e44124f132" />
